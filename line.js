@@ -1,3 +1,5 @@
+(function() {  
+
 var svg = d3.select("#dummy-line-chart-container")
             .append('svg')
             .attr('width', 600)
@@ -71,7 +73,7 @@ d3.json("line-data.json", function(error, data) {
 
     focus.append("text")
         .attr("x", 15)
-      	.attr("dy", ".31em");
+        .attr("dy", ".31em");
 
     svg.append("rect")
         .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
@@ -94,3 +96,6 @@ d3.json("line-data.json", function(error, data) {
       focus.select(".y-hover-line").attr("x2", width + width);
     }
 });
+
+})();
+

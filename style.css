@@ -28,11 +28,11 @@ img {
   margin: 0 auto;
 }
 .quote {
-	color: white;
+	color: purple;
 	font-style: italic;
 }
 #mainquote {
-	font-size: 20px;
-	color: purple;
+	font-size: 30px;
+	color: white;
 	font-style: italic;
 }

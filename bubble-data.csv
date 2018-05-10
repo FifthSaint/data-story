@@ -1,6 +1,6 @@
 id,value
 root.,
-root..AgglomerativeCluster,3938
-root..CommunityStructure,3812
-root..HierarchicalCluster,6714
-root..MergeEdge,743
+root..White,3938
+root..Hispanic,3812
+root..African American,6714
+root..Asian American,743
